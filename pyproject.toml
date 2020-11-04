@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "m3y-pypi-sample"
+version = "0.0.0"
+description = ""
+authors = ["m3y <ma3ya.ozw+github@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+documentation = ""
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
